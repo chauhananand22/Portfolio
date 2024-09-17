@@ -484,38 +484,38 @@ nav ul li a {
 
 #about {
     background-color: #101616;
-    padding: 15px;
     margin-top: 80px;
 }
 
 .container {
-    margin: 10px;
-    padding: 0;
+    max-width: 100%;
     display: flex;
     justify-content: center;
 }
 
 .card {
-    background-color: #F1DECD;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px rgba(241, 222, 202, 0.4);
+    background-color: #26282A;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 .card_title {
-    background-color: #C09562;
-    padding: 10px 20px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px rgba(241, 222, 202, 0.4);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 120px;
-    height: 25px;
-    margin-left: 0px;
-    margin-top: 50px;
+    background-color: #26282A;
+    height: 30px;
+    width: 100px;
+    padding: 10px;
+    padding-left: 53px;
+    padding-right: 40px;
+    margin-right: 0px;
+    margin-left: 2%;
+    margin-top: 5rem;
+    border-radius: 112px;
+    border: 4px solid transparent;
+    background: linear-gradient(#26282A 0 0) padding-box, linear-gradient(100deg, #e4ab65, #e8b77b, #fed095, #ffd9ac) border-box;
 }
 
 .card-content {
@@ -524,8 +524,8 @@ nav ul li a {
 }
 
 .about_image {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
     overflow: hidden;
     margin-left: 100px;
@@ -558,15 +558,17 @@ h2 {
 }
 
 h3 {
-    font-size: 35px;
+    font-size: 40px;
     margin: 0;
-    color: black;
+    margin-left: 25%;
+    color: #fff;
 }
 
-p {
-    font-size: 20px;
+.about_text p {
+    font-size: 24px;
     line-height: 1.6;
     margin-bottom: 20px;
+    margin-left: 25%;
     color: #C09562;
 }
 
@@ -583,18 +585,13 @@ p {
 }
 
 .card_exp {
-    background-color: #F1DECD;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px rgba(241, 222, 202, 0.4);
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
 .title {
-    background-color: #C09562;
-    border-radius: 10px;
     height: 30px;
     width: 100px;
     padding: 10px;
@@ -602,7 +599,10 @@ p {
     padding-right: 55px;
     margin-right: 0px;
     margin-left: 44%;
-    margin-top: 50px;
+    margin-top: 3.3rem;
+    border-radius: 112px;
+    border: 4px solid transparent;
+    background: linear-gradient(#101616 0 0) padding-box, linear-gradient(100deg, #e4ab65, #e8b77b, #fed095, #ffd9ac) border-box;
 }
 
 .card_experience {
@@ -651,14 +651,13 @@ p {
     width: 80px;
     height: 80px;
     object-fit: fill;
-    background: #033431;
     border-radius: 50%;
     width: 80px;
     height: 80px;
 }
 
 .skill1 p {
-    color: black;
+    color: #fff;
     font-weight: bold;
     margin-top: -3px;
 }
@@ -675,7 +674,6 @@ p {
     width: 50px;
     height: 50px;
     object-fit: contain;
-    background: #033431;
     border-radius: 50%;
     width: 80px;
     height: 80px;
@@ -686,7 +684,7 @@ p {
 }
 
 .skill2 p {
-    color: black;
+    color: #fff;
     font-weight: bold;
     margin-top: -3px;
 }
@@ -702,7 +700,7 @@ p {
 }
 
 .exp {
-    background-color: rgb(192, 149, 98);
+    margin-top: 2rem;
     box-shadow: 5px 5px 5px rgba(192, 149, 98, 0.4);
     padding: 5px;
     border-radius: 10px;
@@ -736,6 +734,7 @@ p {
     display: flex;
     flex-direction: column;
     gap: 0;
+    margin-left: 10%;
     margin-right: 100px;
 }
 
@@ -769,19 +768,16 @@ p {
 /* project section */
 
 .container_pro {
-    margin: 20px;
     margin-top: 35px;
-    padding: 0;
+    max-width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
 .card_pro {
-    background-color: #F1DECD;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px rgba(241, 222, 202, 0.4);
+    background-color: #26282A;
+    max-width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -789,15 +785,17 @@ p {
 
 .card_title1 {
     background-color: #C09562;
-    border-radius: 10px;
     height: 30px;
     width: 100px;
     padding: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 50px;
+    padding-right: 45px;
     margin-right: 0px;
     margin-left: 44%;
-    margin-top: 50px;
+    margin-top: 5rem;
+    border-radius: 112px;
+    border: 4px solid transparent;
+    background: linear-gradient(#26282a 0 0) padding-box, linear-gradient(100deg, #e4ab65, #e8b77b, #fed095, #ffd9ac) border-box;
 }
 
 .main_card1 {
@@ -910,6 +908,13 @@ p {
     border-radius: 10px;
 }
 
+.w-img img {
+    width: 40%;
+    height: 265px;
+    object-fit: fill;
+    border-radius: 10px;
+}
+
 .screen3 img {
     width: 100%;
     height: 250px;
@@ -993,16 +998,22 @@ p {
 }
 
 .card_title2 {
-    background-color: #C09562;
-    border-radius: 10px;
+    background-color: #033431;
     height: 30px;
     width: 150px;
     padding: 10px;
-    padding-left: 30px;
-    padding-right: 12px;
+    padding-left: 50px;
+    padding-right: 25px;
     margin-right: 0px;
     margin-left: 44%;
     margin-top: 20px;
+    border-radius: 112px;
+    border: 4px solid transparent;
+    background: linear-gradient(#033431 0 0) padding-box, linear-gradient(100deg, #e4ab65, #e8b77b, #fed095, #ffd9ac) border-box;
+}
+
+.card_title2 h2 {
+    color: #F1DECD;
 }
 
 footer {
@@ -3127,7 +3138,7 @@ footer {
 
 .card_pro1:hover {
     transform: translateY(-10px);
-    box-shadow: 0 8px 16px rgba(3, 52, 49, 0.8);
+    box-shadow: 0 5px 10px #a4a4a4;
 }
 
 .card_pro2 {
@@ -3140,7 +3151,7 @@ footer {
 
 .card_pro2:hover {
     transform: translateY(-10px);
-    box-shadow: 0 8px 16px rgba(3, 52, 49, 0.8);
+    box-shadow: 0 5px 10px #a4a4a4;
 }
 
 .card_pro3 {
@@ -3153,7 +3164,7 @@ footer {
 
 .card_pro3:hover {
     transform: translateY(-10px);
-    box-shadow: 0 8px 16px rgba(3, 52, 49, 0.8);
+    box-shadow: 0 5px 10px #a4a4a4;
 }
 
 .whatsapp .Email .linkedin .github {
@@ -3169,4 +3180,33 @@ footer {
     transform: translateY(-10px);
     color: #c09562;
     text-shadow: 0 0 10px #F1DECD;
+}
+
+.contact_title h1 {
+    font-size: 3rem;
+    animation: slowBounce 4s infinite;
+}
+
+@keyframes slowBounce {
+    0%,
+    100% {
+        transform: translateY(0);
+        /* Start and end at original position */
+    }
+    20% {
+        transform: translateY(-30px);
+        /* Move up */
+    }
+    40% {
+        transform: translateY(-15px);
+        /* Move slightly down */
+    }
+    60% {
+        transform: translateY(-15px);
+        /* Move slightly down */
+    }
+    80% {
+        transform: translateY(-30px);
+        /* Move up again */
+    }
 }
