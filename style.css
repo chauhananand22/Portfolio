@@ -891,7 +891,7 @@ h3 {
 .screen3 {
     display: flex;
     gap: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .screen img {
@@ -1302,7 +1302,8 @@ footer {
     }
     .screen3 img {
         width: auto;
-        height: 8rem;
+        height: 10rem;
+        margin-left: 2.5rem;
         object-fit: fill;
     }
     .main_card2 {
@@ -1317,7 +1318,7 @@ footer {
         padding: 1rem;
         margin-bottom: 0rem;
         margin-top: 4rem;
-        width: 87%;
+        width: 90%;
     }
     .card_pro2 h1 {
         margin-top: 0px;
@@ -1343,7 +1344,7 @@ footer {
         padding: 1rem;
         margin-bottom: 0rem;
         margin-top: 4rem;
-        width: 87%;
+        width: 90%;
     }
     .card_pro3 h1 {
         margin-top: 0px;
@@ -1623,14 +1624,14 @@ footer {
         border-radius: 1rem;
     }
     .screen2 {
-        margin-left: 1.5rem;
+        margin-left: 3.5rem;
     }
     .screen3 {
         margin-left: 1.5rem;
     }
     .card_pro1 h1 {
         margin-top: 0px;
-        margin-bottom: 10px;
+        margin-bottom: 0px;
         font-size: 1.5rem;
     }
     .card_pro1 p {
@@ -1664,8 +1665,9 @@ footer {
         width: 100%;
     }
     .screen3 img {
+        margin-left: 2rem;
         width: auto;
-        height: 8rem;
+        height: 10rem;
         object-fit: fill;
     }
     .main_card2 {
@@ -1680,7 +1682,7 @@ footer {
         padding: 1rem;
         margin-bottom: 0rem;
         margin-top: 4rem;
-        width: 87%;
+        width: 90%;
     }
     .card_pro2 h1 {
         margin-top: 0px;
@@ -1706,7 +1708,7 @@ footer {
         padding: 1rem;
         margin-bottom: 0rem;
         margin-top: 4rem;
-        width: 87%;
+        width: 90%;
     }
     .card_pro3 h1 {
         margin-top: 0px;
@@ -2033,7 +2035,7 @@ footer {
         padding: 1rem;
         margin-bottom: 0rem;
         margin-top: 4rem;
-        width: 87%;
+        width: 92%;
     }
     .card_pro2 h1 {
         margin-top: 0px;
@@ -2059,7 +2061,7 @@ footer {
         padding: 1rem;
         margin-bottom: 0rem;
         margin-top: 4rem;
-        width: 87%;
+        width: 92%;
     }
     .card_pro3 h1 {
         margin-top: 0px;
