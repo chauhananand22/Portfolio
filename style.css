@@ -946,6 +946,15 @@ h3 {
     margin-bottom: 10px;
 }
 
+.screen_h1 {
+    overflow: hidden;
+    color: black;
+    margin-top: 10px !important;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
 .card_pro1 p {
     color: #101616;
     font-weight: bold;
